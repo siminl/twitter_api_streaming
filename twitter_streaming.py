@@ -32,8 +32,7 @@ if __name__ == '__main__':
     stream = tweepy.API(auth)
     for tweet in tweepy.Cursor(stream.search,q= ["IPHONE", "iphone", "Apple", "IP", "ip"], lang ="en").items():
         print tweet
-#        s = tweet.text
-#       f.write(s)
+
 
 ######## add in parameter to narrow down the extraction #####
 
