@@ -1,0 +1,4 @@
+# download from github 
+# in command window
+cd /Users/Simin/GitHub/tweepy
+python setup.py install
